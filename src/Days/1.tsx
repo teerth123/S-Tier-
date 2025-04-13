@@ -3,7 +3,7 @@ import { useState } from "react";
 import { ChevronDownIcon } from "./icons/dropdown";
 import { ChevronUpIcon } from "./icons/dropup"
 import { HomeIcon } from "./icons/Home";
-import { ChartColumnIncreasingIcon } from "./icons/Chart"
+// import { ChartColumnIncreasingIcon } from "./icons/Chart"
 import { MailCheckIcon } from "./icons/Mail";
 import { CogIcon } from "./icons/settings"
 import { UserIcon } from "./icons/User"
