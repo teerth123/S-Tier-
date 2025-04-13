@@ -1,14 +1,26 @@
-import React from 'react';
-import './index.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import FluidMenuAnimation  from './Days/1';
+import './index.css';
+import './App.css';
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Hello, Tailwind!
-      </h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Day/1' element={<FluidMenuAnimation />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
+function Home(){
+  return(
+    <>
+      <div className="bg-[#010100] border-[1px] rounded-2xl border-[#262626] h-[80vh] w-[80vw] p-5">
+          
+      </div>
+    </>
+  )
+}
 export default App;
