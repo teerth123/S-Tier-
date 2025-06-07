@@ -185,7 +185,7 @@ function Hero() {
   return (
     <div className="hero relative w-full min-h-[200vh] overflow-visible">
 
-      <img src="Phone.png" id="phone" className="phone absolute h-[500px] w-[720px]  -mt-20 ml-3 top-[20%] left-[48%] -translate-x-1/2 -translate-y-1/2 z-10 " alt="" />
+      <img src="phone2.png" id="phone" className="phone absolute h-[500px] w-[720px]  -mt-20  top-[20%] left-[48%] 2xl:left-[48%] -translate-x-1/2 -translate-y-1/2 z-10  xl:left-[47%] lg:left-[46%] md:left-[45%] sm:left-[44%] xs:left-[43%]" alt="" />
       <ScrollRiveStateMachine className="riveCard absolute  -mt-20 top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 " />
 
       <div id="willFadeOut" className="willFadeOut relative z-10 pt-[55vh] sm:pt-[50vh] md:pt-[55vh] lg:pt-[55vh] ">
