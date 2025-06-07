@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@rive-app/react-canvas": "^4.21.1",
     "clsx": "^2.1.1",
-    "motion": "^12.6.3",
+    "gsap": "^3.13.0",
+    "motion": "^12.15.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.0",

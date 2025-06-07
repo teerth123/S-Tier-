@@ -6,10 +6,16 @@ export default {
   ],
   theme: {
     extend: {
+
+      screens:{
+        'xs':"375px"
+      },
+
       fontFamily: {
         bebas: ['"Bebas Neue"', 'sans-serif'],
         bricolage: ['"Bricolage Grotesque"', 'sans-serif'],
         geist: ['"Geist"', 'sans-serif'],
+        geist: ['Playfair Display', "serif"],
         onest: ['"Onest"', 'sans-serif'],
         opensans: ['"Open Sans"', 'sans-serif'],
         playfair: ['"Playfair Display"', 'serif'],

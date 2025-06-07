@@ -1,19 +1,8 @@
 #root {
-  /* max-width: full; */
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  background-color: #0a0a0a;
-  display: flex; 
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
-}
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  background-color: #0a0a0a;
-}
-
-.clip-custom {
-  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  text-align: center;
+  background-color: #040406;
 }
