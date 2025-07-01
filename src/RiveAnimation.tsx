@@ -176,18 +176,21 @@ function Hero() {
     <div className="hero relative w-full min-h-[200vh] overflow-visible">
 
       {/* ✅ PHOTOS - Not fixed anymore */}
-      <div className="photos absolute inset-0 z-0 pointer-events-none max-h-screen">
-        <div className="photo-row fade-in-photo-1 absolute top-[105%] left-[10%] right-[10%] flex justify-between px-10 opacity-0">
+      <div className="photos absolute inset-0 z-0 pointer-events-none max-h-screen ">
+        <div className="photo-row fade-in-photo-1 absolute top-[105%] left-[15%] right-[14%] flex justify-between px-10 opacity-0">
           <img src="/1.png" alt="" className="w-56 h-56" />
-          <img src="/5.png" alt="" className="w-48 h-48" />
+          <img src="https://res.cloudinary.com/deqnf0a9w/image/upload/v1751385390/5_pgfu52.png" alt="" className="w-48 h-48" />
         </div>
-        <div className="photo-row fade-in-photo-2 absolute top-[145%] left-0 right-0 flex justify-between px-10 opacity-0">
-          <img src="/3.png" alt="" className="w-96 h-56" />
+        <div className="photo-row fade-in-photo-2 absolute top-[135%] left-0 right-[0%] gap-x-[55vw] flex justify-between px-10 opacity-0">
+          <img src="https://res.cloudinary.com/deqnf0a9w/image/upload/v1751385389/2_j1bnev.png" alt="" className="w-96 h-64" />
+          <img src="https://res.cloudinary.com/deqnf0a9w/image/upload/v1751385403/6_vdujaj.png" alt="" className="w-96 h-72 -mt-20 rounded-lg" />
           <div className="w-24 h-24" />
         </div>
-        <div className="photo-row fade-in-photo-3 absolute top-[175%] left-[12%] right-[5%] flex justify-between px-10 opacity-0">
-          <img src="/4.png" alt="" className="w-56 h-56 rounded-xl" />
-          <img src="/2.png" alt="" className="w-96 h-56" />
+        <div className="photo-row fade-in-photo-3 absolute top-[170%] left-[12%] right-[5%] flex justify-between px-10 opacity-0">
+          {/* <img src="/5.png" alt="" className="w-56 h-56 rounded-xl" /> */}
+          <img src="/4.png" alt="" className="w-96 h-56" />
+          <img src="https://res.cloudinary.com/deqnf0a9w/image/upload/v1751385391/3_grjaka.png" alt="" className="w-72 h-56" />
+        {/* <img src="/7.png" alt="" className="w-96 h-56" /> */}
         </div>
       </div>
 
