@@ -1,8 +1,31 @@
+import { useEffect, useState } from "react";
 import './index.css';
 import './App.css';
 import Hero from "./RiveAnimation";
 
 function App() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkDevice = () => {
+      setIsMobile(window.innerWidth < 640);
+    };
+
+    checkDevice(); // run on mount
+
+    // optional: update on resize
+    window.addEventListener("resize", checkDevice);
+    return () => window.removeEventListener("resize", checkDevice);
+  }, []);
+
+  if (isMobile) {
+    return (
+      <div className="w-full h-screen flex items-center justify-center bg-black text-white text-xl font-semibold">
+        Please use a PC for the best experience.
+      </div>
+    );
+  }
+
   return (
     <>
       {/* Nav Bar */}
